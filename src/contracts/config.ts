@@ -3,9 +3,9 @@ import abiSupllyChain from './abis/supplyChain.json';
 import abiAGTToken from './abis/agtToken.json';
 import { ethers } from "ethers";
 
-export const AGT_TOKEN_ADDRESS: string = '0x032e05833bF6B6F8CB175660108ae5be7881C3a1';
-export const CROWDSALE_ADDRESS: string = '0x5AE2459A08cdc880E5A3d358C4d43714Aeefd953';
-export const SUPPLYCHAIN_ADDRESS: string = '0x01A891BFc54961b615beAB876DacaD24B79bC451';
+export const AGT_TOKEN_ADDRESS: string = '0x7C42A6CDDd2Bb4B242d796a21beEb8254C0eD4bf';
+export const CROWDSALE_ADDRESS: string = '0x0ED7145E8c38c2948456834E9FB147eC998210E9';
+export const SUPPLYCHAIN_ADDRESS: string = '0x86CBC6D56fAd88A4265FF65E2d4EcAe034865F91';
 export const getAbiAGTToken = () => abiAGTToken;
 export const getAbiCrowSale = () => abiCrowdSale;
 export const getAbiSupplyChain = () => abiSupllyChain;
